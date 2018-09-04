@@ -1,0 +1,27 @@
+body {
+  background: #00afe9;
+  width: 100%;
+}
+
+canvas {
+  display: block;
+  width: 100%;
+  position: relative;
+  z-index: 10;
+}
+
+.instructions {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: rgba(0, 0, 0, 0.5);
+	border: 1px solid rgba(0, 0, 0, 0.4);
+	border-radius: 3px;
+	padding: 6px 12px;
+	display: inline-block;
+	font-size: 14px;
+	position: absolute;
+	top: calc(50% + 40px);
+	left: 50%;
+	transform: translateX(-50%);
+  text-align: center;
+  background-color: #fff;
+}
